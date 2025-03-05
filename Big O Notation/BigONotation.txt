@@ -1,2 +1,0 @@
-Theory – Algorithmic Complexity: Learn how to analyze time and space complexity using Big-O notation. Understand common complexities (constant O(1), logarithmic O(log n), linear O(n), quadratic O(n^2), exponential O(2^n), etc.) and why they matter in optimizing code​
-Practice evaluating the complexity of simple algorithms and recognize patterns (loop = linear, nested loops = quadratic, divide & conquer = logarithmic). 
