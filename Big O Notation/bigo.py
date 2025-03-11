@@ -37,7 +37,23 @@ def function_five(n):
     while n > 1:
         n = math.floor(n/2)
         for i in range(1, y+1):
-            print(i)
-    
+            print(i)  
 
+# Funtion definiation of O(2^n) complexity
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fib(n-1) + fib(n-2)
+
+# Funtion definiation of O(n!) complexity
+def f(n):
+    if n == 0:
+        print("********")
+        return
     
+    for i in range(n):
+        f(n-1)
+        
+
