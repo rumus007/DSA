@@ -31,4 +31,13 @@ def function_four(n):
     n = math.floor(n/2)
     return function_four(n)
 
+# Funtion definiation of O(nlog(n)) complexity
+def function_five(n):
+    y = n
+    while n > 1:
+        n = math.floor(n/2)
+        for i in range(1, y+1):
+            print(i)
+    
+
     

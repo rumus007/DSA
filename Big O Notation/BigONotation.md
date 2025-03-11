@@ -37,3 +37,13 @@ def function_four(n):
     n = math.floor(n/2)
     return function_four(n)
 ```
+
+* O (nlog(n)) complexity is explained as function having iternation or recursion with the value for nlog(n). i.e. 4log(4) = 8 so total iterations is eight
+```
+def function_five(n):
+    y = n
+    while n > 1:
+        n = math.floor(n/2)
+        for i in range(1, y+1):
+            print(i)
+```
